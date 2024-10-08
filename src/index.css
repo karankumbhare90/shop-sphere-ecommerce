@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+  .icon__style{
+    @apply text-xl lg:text-2xl font-bold cursor-pointer;
+  }
+
+  .mini__icon{
+    @apply text-lg text-gray-700;
+  }
+
+  .div__style{
+    @apply w-full h-full flex justify-center mt-8;
+  }
+
+  .badge-label{
+    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700;
+  }
+}
